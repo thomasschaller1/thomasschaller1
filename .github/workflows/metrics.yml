@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          config_order: base.header, isocalendar, languages, notable, discussions, topics
+          config_order: base.header, isocalendar, languages, discussions, topics
           base: header
           base_indepth: yes
           plugin_isocalendar: yes
